@@ -17,7 +17,13 @@ my prerequisites practice for csapp and os
 
 a 指针内存空间分配   b []方式分配
 
-a在堆中，b在栈中
+1 a在堆中，b在栈中
+
+2 严格来说a不叫数组，但可以像数组一样使用 （duck type ? )
+
+3 a可以自由free , b随着程序消失（因为在栈中）
+
+4 a可以动态扩容，b不行（栈中，被其他的压在头顶了）
 
 []当作一个运算符，摘抄：
 ```
